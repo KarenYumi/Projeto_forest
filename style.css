@@ -1,0 +1,103 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(79, 129, 94);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: rgb(79, 129, 94);
+}
+
+.cabecalho2 {
+  flex: 1 1 auto;
+  display: flex;
+  /* Adiciona flex para o alinhamento interno */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
+}
+
+#nome {
+  margin: auto;
+  padding-left: 30px;
+  color: rgb(232, 235, 230);
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+
+.Menu {
+  margin-top: 90px;
+  padding: 20px;
+  max-height: 660px;
+  background-color: white;
+  border-radius: 60px;
+
+  /* flex: 0 0 auto;
+  display: flex;
+  font-size: 18px;
+  align-items: center; Centraliza no eixo vertical (se necessário) */
+}
+
+
+.corpo {
+  display: flex;
+  gap: 100px;
+}
+
+.Descricao {
+  margin-top: 100px;
+}
+
+
+.button-bag {
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0.468);
+  padding: 8px 9px;
+  margin: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-bag:hover {
+  background-color: rgb(244, 244, 244);
+  opacity: 0.8;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.font-color1 {
+  position: relative; 
+  color:rgb(198, 227, 141);
+  z-index: 2;
+}
+.font-color2{
+  position: relative; 
+  color: rgb(228, 243, 199);
+  z-index: 2;
+}
+
+.imagem-cortada{
+  margin-top:60px;
+  position: absolute; 
+  right: 0;        
+  top: 0;
+  z-index: 1;
+} 

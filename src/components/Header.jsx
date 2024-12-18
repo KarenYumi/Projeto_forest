@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="cabecalho">
-        <h2 id="nome">forest</h2>
+        <h1 id="nome">forest</h1>
         <nav className="cabecalho2">
         </nav>
         <nav>

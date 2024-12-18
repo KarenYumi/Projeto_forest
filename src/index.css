@@ -60,11 +60,11 @@ ul {
 
 .corpo {
   display: flex;
-  gap: 100px;
+  gap: 50px;
 }
 
 .Descricao {
-  margin-top: 100px;
+  margin: auto;
 }
 
 
@@ -87,11 +87,13 @@ ul {
   position: relative; 
   color:rgb(198, 227, 141);
   z-index: 2;
+  margin-bottom:20px;
 }
 .font-color2{
   position: relative; 
   color: rgb(228, 243, 199);
   z-index: 2;
+  margin-top:70px;
 }
 
 .imagem-cortada{
